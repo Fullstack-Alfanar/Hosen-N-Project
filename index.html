@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>project</title>
+  </head>
+  <body>
+    <section class="container">
+      <div id="Title">
+        <h2>My Task Board</h2>
+      </div>
+      <div class="buttons">
+        <button id="Add">&#43;</button>
+      </div>
+      <hr />
+      <div id="Table"></div>
+    </section>
+    <div id="grayOut" class="grayOut">
+      <div class="popup">
+        <div>
+          <label>Subject:</label>
+          <input id="Subject" type="text" placeholder="Subject" />
+        </div>
+        <div>
+          <label>Time:</label>
+          <input id="Time" type="time" />
+        </div>
+        <div>
+          <label>Date:</label>
+          <input id="Date" type="date" />
+        </div>
+        <div>
+          <textarea name="" id="Note" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+          <button id="AddBtn"></button>
+          <button id="clearBtn">Clear</button>
+          <button id="CancelBtn">Cancel</button>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/scrip.js"></script>
+  </body>
+</html>
